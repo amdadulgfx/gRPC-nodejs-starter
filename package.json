@@ -1,0 +1,17 @@
+{
+  "name": "grpc-nodejs-starter",
+  "version": "1.0.0",
+  "description": "Lightweight gRPC Hello World project",
+  "main": "server.js",
+  "scripts": {
+    "server": "node server.js",
+    "client": "node client.js"
+  },
+  "keywords": ["grpc", "nodejs"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.10.0",
+    "@grpc/proto-loader": "^0.7.12"
+  }
+}
